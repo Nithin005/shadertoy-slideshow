@@ -17,7 +17,7 @@ xhttp.onreadystatechange = function() {
       main();
     }
   };
-xhttp.open("GET", "https://www.shadertoy.com/api/v1/shaders?key=NtnK4n&num=200&sort=popular", true);
+xhttp.open("GET", "data.json", true);
 xhttp.send();
 
 function main(){
