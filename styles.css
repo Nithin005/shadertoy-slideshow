@@ -1,0 +1,7 @@
+.frame{
+    border: none;
+}
+
+.div-frame{
+    background:url(/img/loading.gif) center center no-repeat; 
+}
